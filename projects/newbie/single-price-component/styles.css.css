@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300;500&family=Lato&family=Open+Sans&family=Oswald:wght@600&family=Quicksand:wght@500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  box-sizing: border-box;
+}
+
+em, b, strong {
+  text-decoration: none;
+  font-style: normal;
+  color: unset;
+}
+
+:root {
+  /* Var */
+  --pad: 0px;
+  --radius: 10px;
+  --box-w: 320px;
+  --box-h: 260px;
+  --box-full-w: calc(var(--box-w) * 2) + 25px;
+  /* Colors */
+  --white1: white;
+  --white2: rgba(255, 255, 255, 0.637);
+  --white3: rgba(255, 255, 255, 0.979);
+  --white3: rgba(255, 255, 255, 0.808);
+  --blue1: rgb(43, 179, 177);
+  --blue2: rgb(74, 190, 189);
+  --green1: rgb(190, 223, 50);
+  --green1-hov: rgb(200, 231, 63);
+  --grey1: rgb(147, 147, 148);
+  --grey2: rgba(230, 239, 246, 1);
+
+
+}
+
+main {
+  background-color: var(--grey2);
+  width: 100vw;
+  height: 100vh;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Shortcut Classes */
+.cursur-context {
+  cursor: context-menu;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.f-jus-c {
+  justify-content: center;
+}
+
+.f-jus-s {
+  justify-content: space-between;
+}
+
+.f-align-c {
+  align-items: center;
+}
+
+.f-align-s {
+  align-items: start;
+}
+
+.color-green {
+  color: var(--green1);
+}
+
+.color-blue {
+  color: var(--blue1);
+}
+
+.color-white-1 {
+  color: var(--white1);
+}
+
+.color-white-2 {
+  color: var(--white2);
+}
+
+.color-white-3 {
+  color: var(--white3);
+}
+
+.color-grey {
+  color: var(--grey1);
+}
+
+.padd-45-40 {
+  padding: 45px 40px;
+}
+
+/* Block : Box */
+
+.box {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px 1px rgba(85, 85, 85, 0.329);
+  border-radius: var(--radius);
+}
+
+
+.box-down-call,
+.box-down-why {
+  width: var(--box-w);
+  height: var(--box-h);
+}
+
+/* Element : box-up */
+
+.box-up {
+  border-radius: var(--radius) var(--radius) 0 0;
+  background-color: var(--white1);
+  color: var(--white1);
+  width: 100%;
+  width: calc(2 * var(--box-w));
+}
+
+h1 {
+  font-family: "Lato";
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  margin-bottom: 28px;
+}
+
+.box-up h2 {
+  font-size: 16.5px;
+  font-family: "Open Sans";
+  margin-bottom: 16px;
+}
+
+.box-up p {
+  font-size: 15px;
+  line-height: 25px;
+  font-family: "Anuphan";
+
+}
+
+/* Element : box-down (call) */
+
+.box-down {
+  display: flex;
+  flex-direction: row;
+}
+
+box-down-call-texts {
+  width: calc(var(box-w) - 90px);
+  height: 100%;
+}
+
+.box-down h2 {
+  font-size: 19px;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+  font-family: "Quicksand";
+}
+
+.price {
+  margin-bottom: 4px;
+}
+
+.box-down-call-texts p {
+  font-family: "Open sans";
+  color: var(--white3);
+  font-size: 14px;
+}
+
+.price-number {
+  /* color: var(--white1); */
+  font-size: 30px;
+  margin-right: 12px;
+  font-family: "Oswald";
+}
+
+.price-disc {
+  font-size: 16px;
+  font-family: "Anuphan";
+}
+
+.box-down-call-cta-countainer {
+  width: 100%;
+  height: 100%;
+}
+
+.box-down-call-cta {
+  box-shadow: 0px 0px 10px 1px rgba(85, 85, 85, 0.329);
+  width: 85%;
+  padding: 14px;
+  font-family: "Open sans";
+  color: var(--white1);
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  box-sizing: content-box;
+  font-size: 14px;
+  background-color: var(--green1);
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.15s;
+}
+
+.box-down-call-cta:hover {
+  background-color: var(--green1-hov) ;
+}
+.box-down-call {
+  border-radius: 0 0 0 var(--radius);
+  background-color: var(--blue1);
+  padding-bottom: 0;
+}
+
+/* Element : box-down (why) */
+.box-down-why {
+  border-radius: 0 0 var(--radius) 0;
+  background-color: var(--blue2);
+}
+
+.benefit-list span {
+  color: var(--white2);
+  font-family: "Anuphan";
+  font-size: smaller;
+  line-height: 150%;
+}
+
+/* Responsive Queries */
+
+@media screen {
+  @media (max-width : 765px) {
+    main {
+      overflow-x: hidden;
+    }
+
+    .box {
+      width: 80vw;
+      min-width: none;
+    }
+
+    .box-up {
+      width: 80vw;
+      min-width: none;
+    }
+
+    .box-down {
+      flex-direction: column;
+    }
+
+    .box-down-call {
+      width: 80vw;
+      min-width: none;
+      border-radius: 0;
+    }
+
+    .box-down-why {
+      width: 80vw;
+      min-width: none;
+      border-radius: 0 0 var(--radius) var(--radius);
+    }
+  }
+
+  @media (max-height : 846px) {
+    .box {
+      min-height: 1vh;
+    }
+  }
+}
