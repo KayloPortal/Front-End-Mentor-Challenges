@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="animations.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Learn</title>
+</head>
+
+<body>
+
+  <main>
+    <div class="texts flow">
+      <div class="countainer">
+        <h1>Learn to code by
+          watching others</h1>
+        <p style="--flow-spacer: 2em;">
+          See how experienced developers solve problems in real-time.
+          Watching scripted tutorials is great, but understanding how
+          developers think is invaluable.
+        </p>
+      </div>
+    </div>
+    <div class="form-countainer">
+      <div class="suggest-box shadow">
+        <p><strong>Try it free 7days</strong> then $20/mo. thereafter</p>
+      </div>
+      <form class="shadow" id="form" onsubmit="return false;" novalidate>
+        <div class="input-countainer">
+          <input class="normal-input" data-border="normal" id="fname" placeholder="First Name" type="text">
+          <div class="error-icon" data-display="none"><img src="images/icon-error.svg" alt="error"></div>
+          <label data-display="none" for="fname">First Name cannot be empty</label>
+        </div>
+
+        <div class="input-countainer">
+          <input class="normal-input" data-border="normal" id="lname" placeholder="Last Name" type="text">
+          <div class="error-icon" data-display="none"><img src="images/icon-error.svg" alt="error"></div>
+          <label data-display="none" for="lname">Last Name cannot be empty</label>
+        </div>
+
+        <div class="input-countainer">
+          <input data-border="normal" id="email" placeholder="Email Address" type="email">
+          <div class="error-icon" data-display="none"><img src="images/icon-error.svg" alt="error"></div>
+          <label data-display="none" for="email">Looks like this is not an email</label>
+        </div>
+
+        <div class="input-countainer">
+          <input class="normal-input" data-border="normal" id="password" placeholder="Password" type="password">
+          <div class="error-icon" data-display="none"><img src="images/icon-error.svg" alt="error"></div>
+          <label data-display="none" for="password">Password cannot be empty</label>
+        </div>
+
+        <div class="form-footer">
+          <button class="shadow" id="submit" type="submit">CLAIM YOUR FREE TRIAL</button>
+          <p class="terms">By clicking the button, you are agreeing to our <a
+              href="https://www.frontendmentor.io/profile/KayloPortal"><strong>Terms and Services</strong></a></p>
+        </div>
+      </form>
+    </div>
+    <ul>
+      <li aria-label="front-end mentor">
+        <a target="_blank" href="https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1/hub"><img src="images/favicon-32x32.png" alt="Front-end mentor"></a>
+      </li>
+      <li aria-label="kayloPortal">
+        <a target="_blank" href="https://www.frontendmentor.io/profile/KayloPortal"><img src="images/logo.jpg" alt="Kaylo"></a>
+      </li>
+    </ul>
+  </main>
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
