@@ -40,7 +40,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ## Author
 
-- Website - [Kaylo](https://github.com/KayloPortal)
+- Front-End Mentor Account - [Kaylo](https://github.com/KayloPortal)
 - Frontend Mentor - [@KayloPortal](https://www.frontendmentor.io/profile/KayloPortal)
 
 
