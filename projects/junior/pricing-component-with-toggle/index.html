@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Front-End Menor | pricign component with toggle</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+    <div class="bg"></div>
+    <div class="bg-top">
+      <img src="/images/bg-top.svg" alt="lines background top">
+    </div>
+    <div class="bg-bottom">
+      <img src="/images/bg-bottom.svg" alt="lines background top">
+    </div>
+
+
+    <section class="texts flow">
+      <h1>our Pricing</h1>
+      <div class="texts-toggle-countainer">
+        <h2>Annually</h2>
+        <button class="toggle-button"></button>
+        <h2>Monthly</h2>
+      </div>
+    </section>
+
+    <section class="pricing" data-focus="on">
+      <article class="pricing-box shadow">
+        <section class="price">
+          <h3>Basic</h3>
+          <div class="price-number-countainer">$ <span class="price-number">19.99</span></div>
+        </section>
+        <ul class="benefits">
+          <li><p>500 GB Storage</p></li>
+          <li><p>2 Users Allowed</p></li>
+          <li><p>Send up to 3 GB</p></li>
+        </ul>
+        <button class="CTA">Learn More</button>
+      </article>
+
+      <article class="pricing-box shadow" data-focus="on">
+        <section class="price">
+          <h3>Professional</h3>
+          <div class="price-number-countainer">$ <span class="price-number">24.99</span></div>
+        </section>
+        <ul class="benefits">
+          <li><p>1 TB Storage</p></li>
+          <li><p>5 Users Allowed</p></li>
+          <li><p>Send up to 10 GB</p></li>
+        </ul>
+        <button class="CTA">Learn More</button>
+      </article>
+
+      <article class="pricing-box shadow">
+        <section class="price">
+          <h3>Master</h3>
+          <div class="price-number-countainer">$ <span class="price-number">39.99</span></div>
+        </section>
+          <ul class="benefits">
+            <li><p>2 TB Storage</p></li>
+            <li><p>10 Users Allowed</p></li>
+            <li><p>Send up to 20 GB</p></li>
+          </ul>
+        <button class="CTA">Learn More</button>
+      </article>
+    </section>
+    <script src="main.js"></script>
+  </main>
+</body>
+
+</html>
