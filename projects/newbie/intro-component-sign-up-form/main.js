@@ -52,7 +52,6 @@ const inputElements = document.getElementsByTagName("input");
 const inputCountainers = document.getElementsByClassName("input-countainer");
 const emailInput = document.getElementById("#email");
 let index = findIndex(inputCountainers, emailInput);
-// form.addEventListener("submit", submit);
 submitButton.addEventListener("click", submit);
 
 
