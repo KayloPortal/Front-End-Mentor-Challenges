@@ -24,7 +24,7 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://kayloportal.github.io/Front-End-Mentor-Challenges/projects/junior/pricing-component-with-toggle/)
 
 ## My process
 
