@@ -361,3 +361,8 @@ main {
   @media (max-width: 300px){:root{--base-rem: 11px;}}
   @media (max-width: 250px){:root{--base-rem: 9px;}}
 }
+
+.visually-hidden {
+  left: -9999px;
+  position: absolute;
+}
