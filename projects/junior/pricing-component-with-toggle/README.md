@@ -23,7 +23,7 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://your-solution-url.com](https://www.frontendmentor.io/solutions/-pricing-toggle-component-AIWa5h_ccN)
 - Live Site URL: [Add live site URL here](https://kayloportal.github.io/Front-End-Mentor-Challenges/projects/junior/pricing-component-with-toggle/)
 
 ## My process
@@ -50,4 +50,3 @@ This is a solution to the [Pricing component with toggle challenge on Frontend M
 
 - Account - [Kaylo](https://github.com/KayloPortal)
 - Frontend Mentor - [@KayloPorta](https://www.frontendmentor.io/profile/KayloPortal)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
