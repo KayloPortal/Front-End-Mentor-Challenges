@@ -62,6 +62,10 @@ h3 {
   font-size: var(--fs-400);
 }
 
+.hero-content p {
+  max-width: 59ch;
+}
+
 a {
   color: var(--clr-neutral-900);
   text-decoration: none;
