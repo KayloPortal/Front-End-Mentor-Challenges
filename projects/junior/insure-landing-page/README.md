@@ -18,7 +18,7 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
 
 ### Screenshot
 
-![](/images/screenshot.png)
+![](images/screenshot.png)
 
 ### Links
 
