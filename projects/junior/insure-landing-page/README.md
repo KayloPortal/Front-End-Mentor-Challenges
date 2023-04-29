@@ -40,8 +40,8 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
 
 ### Useful resources
 
-- [resource]([https://www.example.com](https://www.youtube.com/results?search_query=toggle+button+css+js) - Helped me in some toggle button issues.
-- [resource]([https://www.example.com](https://www.youtube.com/watch?v=gzCUq_VQ7Y8&t=22s)) - Helped me in animting toggle button.
+- [resource](https://www.example.com](https://www.youtube.com/results?search_query=toggle+button+css+js) - Helped me in some toggle button issues.
+- [resource](https://www.example.com](https://www.youtube.com/watch?v=gzCUq_VQ7Y8&t=22s) - Helped me in animting toggle button.
 
 
 ## Author
