@@ -22,8 +22,8 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://github.com/KayloPortal/Front-End-Mentor-Challenges/tree/main/projects/junior/insure-landing-page)
+- [Live Site URL](https://kayloportal.github.io/Front-End-Mentor-Challenges/projects/junior/insure-landing-page/)
 
 ## My process
 
@@ -34,11 +34,7 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- JS
 
 ### What I learned
 
