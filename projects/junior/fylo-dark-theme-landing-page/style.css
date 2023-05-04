@@ -1012,7 +1012,6 @@ input:focus {
 }
 
 .author {
-  display: none;
   position: absolute;
   bottom: .2rem;
   left: 0;
