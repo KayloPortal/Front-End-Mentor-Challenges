@@ -350,6 +350,7 @@ main {
 .hero-image img {
   height: 33.25rem;
   width: max-content;
+  object-fit: contain;
 }
 
 .hero-content {
