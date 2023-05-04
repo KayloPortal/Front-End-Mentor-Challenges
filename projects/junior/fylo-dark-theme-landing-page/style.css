@@ -612,19 +612,6 @@ footer {
   gap: 4rem;
 }
 
-/* .footer-info,
-.footer-links {
-  height: 100%;
-} */
-
-/* .footer-info {
-  flex: 1.2;
-}
-
-.footer-links {
-  flex: 1;
-} */
-
 .footer-info {
   display: flex;
   align-items: start;
@@ -650,6 +637,12 @@ footer {
 
 address {
   font-style: normal;
+}
+
+.footer-info-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.75rem;
 }
 
 .footer-info-paragraph img {
@@ -684,7 +677,6 @@ address {
   display: flex;
   flex-direction: row;
   width: max-content;
-  /* margin-left: 7.1875rem; */
 }
 
 .social-links .social-icon {
