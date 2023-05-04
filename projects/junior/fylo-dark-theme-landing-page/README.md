@@ -20,8 +20,8 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/home/my-challenges?tab=completed)
+- Live Site URL: [Live Site](https://kayloportal.github.io/Front-End-Mentor-Challenges/projects/junior/fylo-dark-theme-landing-page/)
 
 ## My process
 
