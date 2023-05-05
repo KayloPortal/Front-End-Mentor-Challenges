@@ -17,22 +17,22 @@
 </head>
 
 <body>
-  <header class="bg-primary-825">
+  <header id="header" class="bg-primary-825">
     <div class="image">
-      <img src="images/logo.svg" alt="Fylo">
+      <a href="#hero"><img src="images/logo.svg" alt="Fylo"></a>
     </div>
 
     <nav class="primary-nav">
       <ul class="primary-nav-list fw-bold fs-body-200 clr-neutral-100 ff-heading fw-regular">
-        <li class="op-100"><a href="www.frontendmentor.io/profiles/kayloportal">Features</a></li>
-        <li class="op-100"><a href="www.frontendmentor.io/profiles/kayloportal">Team</a></li>
-        <li class="op-100"><a href="www.frontendmentor.io/profiles/kayloportal">Sign in</a></li>
+        <li class="op-100"><a href="#features">Features</a></li>
+        <li class="op-100"><a href="#CTA">Team</a></li>
+        <li class="op-100"><a href="#leash">Sign in</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="bg-primary-850">
-    <section class="hero-section bg-primary-825 | grid-place-center grid-1-column-2-row">
+    <section id="hero" class="hero-section bg-primary-825 | grid-place-center grid-1-column-2-row">
       <div class="hero-image"><img src="images/illustration-intro.png" alt="intro"></div>
       <div class="hero-content flow">
         <h1 class="fs-heading-900">
@@ -40,14 +40,14 @@
         <p class="fs-body-900" style="--flow-spacer: 2.05rem;">Fylo stores all your most important files in one secure
           location. Access them wherever
           you need, share and collaborate with friends family, and co-workers.</p>
-        <a class="ref-button fs-button-100" style="margin-top: 2rem;" href=""><span class="ref-bg"></span><span
+        <a class="ref-button fs-button-100" style="margin-top: 2rem;" href="#leash"><span class="ref-bg"></span><span
             class="ref-content">Get Started</span></a>
       </div>
       <img src="images/bg-curvy-desktop.svg" class="bg-curvy-desktop display-none-sm" alt="">
       <img src="images/bg-curvy-mobile.svg" class="bg-curvy-mobile display-none-md" alt="">
     </section>
 
-    <section class="benefits-section vertical-padding | grid-place-center">
+    <section id="features" class="benefits-section vertical-padding | grid-place-center">
       <div class="benefits | grid-2-column-2-row gap-row-column grid-place-center">
         <article class="benefit-box flow">
           <img class="access-anywhere-image" src="images/icon-access-anywhere.svg" alt="">
@@ -86,7 +86,7 @@
       </div>
     </section>
 
-    <section class="CTA-section vertical-padding">
+    <section id="CTA" class="CTA-section vertical-padding">
       <div class="CTA-countainer | grid-2-column-1-row grid-place-center align-center gap">
         <div class="CTA-image"><img src="images/illustration-stay-productive.png" alt="stay productive"></div>
         <div class="CTA-content flow">
@@ -99,17 +99,16 @@
             Securely share files and folders with friends, family and colleagues for live collaboration. No email
             attachments required.
           </p>
-          <a href="" class="ref-input">See how Fylo works</a>
+          <a target="_blank" href="https://www.frontendmentor.io/profile/KayloPortal" class="ref-input">See how Fylo works</a>
         </div>
       </div>
     </section>
 
     <section class="feeds-section | grid-place-center">
-      <div class="feeds-countainer | grid-3-column-1-row gap">
+      <div class="feeds-countainer | grid-3-column-1-row gap centered-grid">
         <article class="feed-box flow" style="position: relative;">
           <img class="feeds-quote" src="images/bg-quotes.png" alt="">
           <div class="feed-content">
-
             <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
               become a well-oiled collaboration machine.</p>
           </div>
@@ -155,7 +154,7 @@
         </article>
     </section>
 
-    <section class="early-access-section">
+    <section id="leash" class="early-access-section">
       <div class="early-access-countainer flow">
         <div class="early-access-content">
           <h2 class="fs-heading-500">Get early access today</h2>
@@ -177,7 +176,7 @@
 
   <footer class="bg-primary-875 | r-direction-row">
     <div class="footer-countainer">
-      <div class="logo"><img class="footer-info-logo-img" src="images/logo.svg" alt="Fylo"></div>
+      <div class="logo"><a href="#header"><img class="footer-info-logo-img" src="images/logo.svg" alt="back to top"></a></div>
       <div class="footer-info-countainer | r-direction-row">
         <div class="footer-info | r-space-between r-direction-row">
           <div class="footer-info-logo | rc-margin-right ">
@@ -205,37 +204,43 @@
         <div class="footer-links | r-space-between r-direction-row">
           <nav class="footer-navigation">
             <ul class=" | grid-2-column-1-row gap-row-column">
-              <li><a href="">About US</a></li>
-              <li><a href="">jobs</a></li>
-              <li><a href="">Press</a></li>
-              <li><a href="">Blog</a></li>
-              <li class="li-hype"><a href="">Contact Us</a></li>
-              <li><a href="">Terms</a></li>
-              <li><a href="">Privacy</a></li>
+              <div class="column-wrap">
+                <li><a target="_blank" href="https://www.frontendmentor.io/profile/KayloPortal">About US</a></li>
+                <li><a target="_blank" href="https://www.frontendmentor.io/profile/KayloPortal">jobs</a></li>
+                <li><a target="_blank" href="https://www.frontendmentor.io/profile/KayloPortal">Press</a></li>
+                <li><a target="_blank" href="https://www.frontendmentor.io/profile/KayloPortal">Blog</a></li>
+              </div>
+              <div class="column-wrap">
+                <li><a target="_blank" href="https://www.frontendmentor.io/profile/KayloPortal">Contact Us</a></li>
+                <li><a target="_blank" href="https://www.frontendmentor.io/profile/KayloPortal">Terms</a></li>
+                <li><a target="_blank" href="https://www.frontendmentor.io/profile/KayloPortal">Privacy</a></li>
+              </div>
             </ul>
           </nav>
           <ul class="social-links" aria-label="social-links">
-            <li aria-label="facebook"><a href="">
+            <li aria-label="facebook"><a target="_blank" href="https://www.frontendmentor.io/profile/KayloPortal">
                 <svg class="social-icon">
                   <use xlink:href="images/social-icons.svg#icon-facebook"></use>
                 </svg>
               </a></li>
-            <li aria-label="twitter"><a href="">
+            <li aria-label="twitter"><a target="_blank" href="https://www.frontendmentor.io/profile/KayloPortal">
                 <svg class="social-icon">
                   <use xlink:href="images/social-icons.svg#icon-twitter"></use>
                 </svg>
               </a></li>
-            <li aria-label="instagram"><a href="">
+            <li aria-label="instagram"><a target="_blank" href="https://www.frontendmentor.io/profile/KayloPortal">
                 <svg class="social-icon">
                   <use xlink:href="images/social-icons.svg#icon-instagram"></use>
                 </svg>
               </a></li>
           </ul>
           <span class="author">
-            Challenge designed by 
-            <a href="https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd">Front-End Mentor</a>, Developed by
-            Kaylo(<a href="https://www.frontendmentor.io/profile/KayloPortal">FEM</a> 
-            , <a href="https://github.com/KayloPortal">Gitgub</a>, <a href="https://ponisha.ir/profile/kaylo">Ponisha</a>)</span>
+            Challenge designed by
+            <a target="_blank" href="https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd">Front-End
+              Mentor</a>, Developed by
+            Kaylo(<a target="_blank" href="https://www.frontendmentor.io/profile/KayloPortal">FEM</a>
+            , <a target="_blank" href="https://github.com/KayloPortal">Gitgub</a>, <a
+              href="https://ponisha.ir/profile/kaylo">Ponisha</a>)</span>
         </div>
       </div>
     </div>
