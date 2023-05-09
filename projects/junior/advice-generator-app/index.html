@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <title>Your Advice | Kaylo</title>
+</head>
+
+<body>
+  <main>
+    <article class="countainer flow">
+      <h1>Advice #<span id="advice-number"></span></h1>
+      <q style="--flow-spacer: 1.5rem;" id="advice-content"></q>
+      <img style="--flow-spacer: 2.5rem;" class="display-none-sm" src="images/pattern-divider-desktop.svg" alt="">
+      <img style="--flow-spacer: 2.5rem;" class="display-none-md" src="images/pattern-divider-mobile.svg" alt="">
+      <button id="draw">
+        <svg class="dice">
+          <use xlink:href="images/icons.svg#icon-dice"></use>
+        </svg>
+      </button>
+    </article>
+    <div class="error-box">
+      <span class="error-message">
+        ERROR : Somthing Went Wrong!
+      </span>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+
+</html>
