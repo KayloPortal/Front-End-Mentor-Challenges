@@ -18,12 +18,12 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](images/screenshot.png)
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Solution]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/-advice-generator-qKPrhJPaIW))
+- [Live Site]([https://your-live-site-url.com](https://kayloportal.github.io/Front-End-Mentor-Challenges/projects/junior/advice-generator-app/))
 
 ## My process
 
