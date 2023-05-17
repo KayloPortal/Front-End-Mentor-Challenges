@@ -440,7 +440,7 @@ h3 {
   column-gap: 1.5rem;
   row-gap: .875rem;
   background-position: top left;
-  background-image: url("/images/bg-shorten-desktop.svg");
+  background-image: url("../images/bg-shorten-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -557,7 +557,7 @@ h3 {
 
   /* st  */
   .form {
-    background-image: url("/images/bg-shorten-mobile.svg");
+    background-image: url("../images/bg-shorten-mobile.svg");
     background-size: contain;
     background-position: top right;
   }
@@ -686,7 +686,7 @@ h3 {
 
   /* st  */
   .CTA-section {
-    background-image: url("/projects/intermediate/url-shortening-api-master/images/bg-boost-mobile.svg");
+    background-image: url("../images/bg-boost-mobile.svg");
     background-size: contain;
     background-position: top right;
   }
