@@ -562,8 +562,7 @@ h3 {
     background-position: top right;
   }
 }
-
-
+https://kayloportal.github.io/Front-End-Mentor-Challenges/projects/intermediate/url-shortening-api-master/
 .form input::placeholder {
   font-family: var(--ff-primary);
   font-weight: var(--fw-medium);
@@ -668,7 +667,7 @@ h3 {
 }
 
 /* CTA */
-
+https://kayloportal.github.io/Front-End-Mentor-Challenges/projects/intermediate/url-shortening-api-master/
 .CTA-section {
   width: 100dvw;
   display: flex;
@@ -678,7 +677,7 @@ h3 {
   height: 15.625rem;
   row-gap: 1.5rem;
   background-color: var(--clr-primary-800);
-  background-image: url("/images/bg-boost-desktop.svg");
+  background-image: url("/projects/intermediate/url-shortening-api-master/images/bg-boost-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
