@@ -17,7 +17,6 @@ const validateStart = (domain, ss) => {
 
 const validateMain = (passed, ss, domain) => {
   let ls = ss.substring(domain.length, ss.length);
-  console.log(ls);
   let dotLastIndex = ls.lastIndexOf(".");
   if (ls.substring(dotLastIndex, ls.length).length > 1 && dotLastIndex != -1) {
     passed++;
@@ -151,9 +150,7 @@ let linksObject, linksArray;
 let recivedLinks = JSON.parse(localStorage.getItem("links"));
 let recivedArr = JSON.parse(localStorage.getItem("linksArray"));
 if (recivedLinks == null || recivedLinks == undefined){
-  linksObject = {
-    "set": (key, url) => {this[`${key}`] = url}
-  }
+  linksObject = {}
   localStorage.removeItem("links");
   localStorage.setItem("links", JSON.stringify(linksObject));
 } else {
