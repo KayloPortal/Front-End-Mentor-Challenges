@@ -677,7 +677,7 @@ h3 {
   height: 15.625rem;
   row-gap: 1.5rem;
   background-color: var(--clr-primary-800);
-  background-image: url("/projects/intermediate/url-shortening-api-master/images/bg-boost-desktop.svg");
+  background-image: url("./../images/bg-boost-desktop.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
