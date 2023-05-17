@@ -20,7 +20,7 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution](https://kayloportal.github.io/Front-End-Mentor-Challenges/projects/intermediate/url-shortening-api-master/)
 - Live Site URL: [Live Site](https://your-live-site-url.com)
 
 ## My process
