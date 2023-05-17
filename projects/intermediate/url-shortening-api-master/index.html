@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/favicon-32x32.png">
+  <title>Shortly | Kaylo</title>
+</head>
+
+<body>
+  <header class="vertical-padding">
+    <div class="header-countainer">
+      <div class="logo">
+        <img src="images/logo.svg" alt="Shortly">
+      </div>
+      <div class="header-links">
+        <nav class="primary-navigation">
+          <ul>
+            <li><a class="fs-paragraph-300 clr-neutral-300 fw-bold" href="#features">Features</a></li>
+            <li><a class="fs-paragraph-300 clr-neutral-300 fw-bold" href="#CTA">Pricing</a></li>
+            <li><a class="fs-paragraph-300 clr-neutral-300 fw-bold" href="#hero">Resources</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-CTA">
+          <a href="https://www.frontendmentor.io/profile/KayloPortal" class="ref-button trans-button">Login</a>
+          <a href="https://www.frontendmentor.io/profile/KayloPortal" class="ref-button">Sign Up</a>
+        </div>
+      </div>
+      <button class="toggle display-none-750s" id="toggleB">
+        <h2 class="sr-only">Menu</h2>
+        <div class="lines">
+          <span class="line start-line"></span>
+          <span dir="rtl" class="line middle-line"></span>
+          <span class="line last-line"></span>
+        </div>
+      </button>
+    </div>
+  </header>
+  
+  <main class="">
+    <section id="hero" class="hero-section vertical-padding bg-neutral-100">
+      <div class="hero-countainer | grid-1-row-2-column">
+        <div class="hero-content flow | align-c-md">
+          <h1 class="fs-heading-900 clr-neutral-800">More than just shorter links</h1>
+          <p class="fs-paragraph-500 clr-neutral-300" style="--flow-spacer: 0rem;">Build your brand’s recognition and
+            get
+            detailed insights
+            on how your links are performing.</p>
+          <a href="#shorten" class="ref-button CTA" style="--flow-spacer: 2rem;">Get Started</a>
+        </div>
+
+        <div class="hero-image">
+          <img src="images/illustration-working.svg" alt="working woman">
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits-section vertical-padding bg-neutral-300" id="features">
+      <div class="form-countainer">
+        <h2 class="sr-only">Shorten Your Link</h2>
+        <form id="shorten" data-validation="fix" class="form | grid-1-row-2-column-sm" action="" onsubmit="return false;" novalidate>
+          <input type="text" id="link-input" placeholder="Shorten a link here...">
+          <label class="label" for="link-input">Please add a link</label>
+          <button class="ref-button rec-button" type="submit" id="submit-button">Shorten It!</button>
+        </form>
+        <div class="shorted-links"></div>
+      </div>
+      <div class="benefit-content">
+        <h2 class="clr-neutral-800 fs-heading-100">Advanced Statistics</h2>
+        <p class="clr-neutral-300 fs-paragraph-400">Track how your links are performing across the web with our
+          advanced statistics dashboard.</p>
+      </div>
+      <div class="benefits | grid-1-row-3-column">
+        <article class="benefit benefit-first flow">
+          <div class="benefit-countainer">
+            <div class="benefit-image-c">
+              <img class="benefit-image" src="images/icon-brand-recognition.svg" alt="recognition">
+            </div>
+            <h3 class="fs-paragraph-600 fw-bold clr-neutral-800">Brand Recognition</h3>
+            <p style="--flow-spacer: .95rem;" class="clr-neutral-300 fs-paragraph-300">Boost your brand recognition
+              with
+              each click. Generic links don’t
+              mean a thing. Branded links help instil confidence in your content.</p>
+          </div>
+        </article>
+
+        <article class="benefit benefit-middle flow">
+          <div class="benefit-countainer">
+            <div class="benefit-image-c">
+              <img class="benefit-image" src="images/icon-detailed-records.svg" alt="records">
+            </div>
+            <h3 class="fs-paragraph-600 fw-bold clr-neutral-800">Detailed Records</h3>
+            <p style="--flow-spacer: .95rem;" class="clr-neutral-300 fs-paragraph-300">Gain insights into who is
+              clicking
+              your links. Knowing when and where
+              people engage with your content helps inform better decisions.</p>
+          </div>
+        </article>
+
+        <article class="benefit benefit-last flow">
+          <div class="benefit-countainer">
+            <div class="benefit-image-c">
+              <img class="benefit-image" src="images/icon-fully-customizable.svg" alt="customizable">
+            </div>
+            <h3 class="fs-paragraph-600 fw-bold clr-neutral-800">Fully Customizable</h3>
+            <p style="--flow-spacer: .95rem;" class="clr-neutral-300 fs-paragraph-300">Improve brand awareness and
+              content
+              discoverability through customizable
+              links, supercharging audience engagement.</p>
+          </div>
+        </article>
+        <div class="line-res"></div>
+      </div>
+    </section>
+
+    <section id="CTA" class="CTA-section vertical-padding">
+      <h2 class="fs-heading-500 clr-neutral-100">Boost your links today</h2>
+      <button class="ref-button CTA CTA-capital">Get Started</button>
+    </section>
+  </main>
+  
+  <footer class="footer bg-neutral-900 vertical-padding">
+    <div class="footer-countainer | r-direction-row align-c-md">
+      <h2 class="sr-only">Footer</h2>
+      <div class="footer-logo-countainer">
+        <svg class="footer-logo">
+          <use xlink:href="images/logo-sprite.svg#logo"></use>
+        </svg>
+      </div>
+      <div class="footer-links grid-1-row-2-column align-c-md">
+        <nav class="footer-navigation | grid-1-row-3-column-sm">
+          <h3 class="sr-only">Footer Navigation</h3>
+          <div class="wrap">
+            <h4>Features</h4>
+            <ul class="footer-links-ul align-c-md">
+              <li><a href="https://www.frontendmentor.io/profile/KayloPortal">Link Shortening</a></li>
+              <li><a href="https://www.frontendmentor.io/profile/KayloPortal">Branded Links</a></li>
+              <li><a href="https://www.frontendmentor.io/profile/KayloPortal">Analytics</a></li>
+            </ul>
+          </div>
+
+          <div class="wrap">
+            <h4>Resources</h4>
+            <ul class="footer-links-ul align-c-md">
+              <li><a href="https://www.frontendmentor.io/profile/KayloPortal">Blog</a></li>
+              <li><a href="https://www.frontendmentor.io/profile/KayloPortal">Developers</a></li>
+              <li><a href="https://www.frontendmentor.io/profile/KayloPortal">Support</a></li>
+            </ul>
+          </div>
+
+          <div class="wrap">
+            <h4>Company</h4>
+            <ul class="footer-links-ul align-c-md">
+              <li><a href="https://www.frontendmentor.io/profile/KayloPortal">About</a></li>
+              <li><a href="https://www.frontendmentor.io/profile/KayloPortal">Our Team</a></li>
+              <li><a href="https://www.frontendmentor.io/profile/KayloPortal">Careers</a></li>
+              <li><a href="https://www.frontendmentor.io/profile/KayloPortal">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        
+        <ul class="social-links" aria-label="social links">
+          <h3 class="sr-only">Social Links</h3>
+          <li>
+            <a aria-label="facebook" href="https://www.frontendmentor.io/profile/KayloPortal">
+              <svg class="social-icon">
+                <use xlink:href="images/social-icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a aria-label="twitter" href="https://www.frontendmentor.io/profile/KayloPortal">
+              <svg class="social-icon">
+                <use xlink:href="images/social-icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a aria-label="pinterest" href="https://www.frontendmentor.io/profile/KayloPortal">
+              <svg class="social-icon">
+                <use xlink:href="images/social-icons.svg#icon-pinterest"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a aria-label="instagram" href="https://www.frontendmentor.io/profile/KayloPortal">
+              <svg class="social-icon">
+                <use xlink:href="images/social-icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app/main.js"></script>
+</body>
+
+</html>
