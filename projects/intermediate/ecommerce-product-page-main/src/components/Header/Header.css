@@ -1,0 +1,240 @@
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  line-height: 1;
+}
+
+.header-container {
+  justify-content: space-between;
+  padding-block: 2.69rem;
+}
+
+.header__open-icon {
+  margin-right: .94rem;
+}
+
+.header__icons {
+  position: relative;
+}
+
+.header__icons button {
+  position: relative;
+}
+
+.header-icons__cart {
+  cursor: pointer;
+  margin-right: 1.44rem;
+  width: clamp(1.3125rem, 5vw, 1.875rem);
+  height: max-content;
+}
+
+.header-icons__avatar {
+  box-sizing: content-box;
+  transition: all ease-out .35s;
+  border-radius: 50%;
+  border: .125rem solid rgba(0, 0, 0, 0);
+  width: clamp(1.5rem, 5vw, 3rem);
+}
+
+.header-icons__avatar:hover {
+  border-color: var(--clr-primary-100);
+}
+
+.navigation__item {
+  cursor: pointer;
+  position: relative;
+  padding-block: .5rem;
+}
+
+.navigation__item::after {
+  content: '';
+  cursor: context-menu;
+  opacity: 0;
+  position: absolute;
+  top: 5.375rem;
+  left: 0;
+  right: 0;
+  height: .25rem;
+  border-radius: .0625rem;
+  background-color: var(--clr-primary-100);
+  transition: all ease-out .25s;
+}
+
+.navigation__item:hover::after {
+  opacity: 1;
+}
+
+/* Modal */
+
+.cart-modal {
+  position: fixed;
+  top: 4.81rem;
+  width: min(100dvw - var(--page-minimum-padding) * 2, 22.4375rem);
+  transform: translate(-10rem, 2.25rem);
+  padding: 1.25rem 0 2rem 0;
+  background-color: var(--clr-neutral-100);
+  box-shadow: 0px 18px 20px 0px rgba(29, 32, 37, 0.10), 0px 8px 20px 0px rgba(29, 32, 37, 0.20);
+  z-index: 1000000;
+}
+
+.modal-padding {
+  padding-inline: 1.44rem;
+}
+
+/* Header */
+.cart-modal__heading {
+  text-align: left;
+  margin-bottom: 1.69rem;
+}
+
+.cart-modal__line {
+  width: 100%;
+}
+
+/* Products */
+.products {
+  margin-top: 1.62rem;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  text-align: left;
+}
+
+.product * {
+  font-size: inherit;
+}
+
+.product__heading {
+  margin-bottom: .31rem;
+}
+
+.product__number {
+  letter-spacing: .32rem;
+  margin-left: .25rem;
+  margin-trim: .5rem;
+}
+
+.product__image {
+  width: 3.125rem;
+  aspect-ratio: 1;
+  object-fit: contain;
+  border-radius: .25rem;
+}
+
+.cart-modal__button {
+  margin-top: 1.88rem;
+  background-color: var(--clr-primary-100);
+  height: 3.5rem;
+  width: 100%;
+}
+
+.cart-modal--error {
+  height: 11.8125rem;
+  display: grid;
+  place-items: center;
+}
+
+@media(max-width: 1000px) {
+  .header-container {
+    padding-block: 1rem;
+  }
+
+  .navigation {
+    position: fixed;
+    max-width: 15.625rem;
+    background-color: var(--clr-neutral-100);
+    z-index: 100000;
+    width: 100dvw;
+    height: 100dvh;
+    top: 0;
+    left: 0;
+    padding: 1.69rem 1.56rem;
+    transition: all ease-out .25s;
+  }
+
+  .header--menu-open .navigation {
+    transform: translateX(0rem);
+  }
+
+  .header--menu-closed .navigation {
+    transform: translateX(-100dvw);
+  }
+
+  .navigation__list {
+    padding-top: 3.37rem;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5rem;
+    color: var(--clr-neutral-500) !important;
+    font-weight: var(--fw-bold);
+  }
+
+  .header--menu-closed .header-backdrop {
+    display: none;
+  }
+
+  .header-backdrop {
+    background-color: var(--clr-neutral-500);
+    opacity: .75;
+    position: fixed;
+    z-index: 99999;
+    width: 100dvw;
+    height: 100dvh;
+    top: 0;
+    left: 0;
+  }
+
+  .cart-modal {
+    transform: translate(0rem, 0rem);
+    right: var(--page-minimum-padding);
+  }
+
+  .navigation__item::after {
+    display: none;
+  }
+}
+
+@media(max-width: 1320px) and (width > 1000px) {
+
+  .cart-modal {
+    transform: translate(0rem, 2.25rem);
+    /* left: var(--page-minimum-padding); */
+    right: var(--page-minimum-padding);
+  }
+
+}
+
+@media (width > 1000px) {
+  .header__logo {
+    margin-right: 3.75rem;
+  }
+
+  .header-icons__avatar {
+    width: 3.25rem;
+  }
+
+  .navigation__list {
+    gap: 2.06rem;
+  }
+
+  .header-icons__cart {
+    margin-right: 2.94rem;
+  }
+
+  .header-line {
+    height: .0625rem;
+    background-color: var(--clr-neutral-300);
+  }
+
+  .header-icons__cart {
+    width: 1.3125rem;
+    /* height: 1.5625rem; */
+  }
+}
