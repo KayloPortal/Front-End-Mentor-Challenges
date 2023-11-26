@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://65633eade167cf6c9e5302e7--kaylo.netlify.app/))
+- Solution URL: [Solution](https://your-solution-url.com)
+- Live Site URL: [Live Site]([https://your-live-site-url.com](https://65633eade167cf6c9e5302e7--kaylo.netlify.app/))
 
 ## My process
 
