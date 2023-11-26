@@ -1,0 +1,137 @@
+:root {
+  --clr-gradient-100: hsl(249, 99%, 64%);
+  --clr-gradient-200: hsl(278, 94%, 30%);
+  --clr-primary-100: hsl(0, 100%, 66%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-200: hsl(270, 3%, 87%);
+  --clr-neutral-300: hsl(279, 6%, 55%);
+  --clr-neutral-400: hsl(278, 68%, 11%);
+
+  --fw-medium: 500;
+  --ff-main: "Space Grotesk", sans-serif;
+
+  --fs-100: 0.75rem;
+  --fs-110: 0.75rem;
+  --fs-200: 1rem;
+  --fs-210: 1rem;
+  --fs-300: 1.125rem;
+  --fs-400: 1.875rem;
+  --fs-410: 1.875rem;
+  --fs-500: 2rem;
+
+  --f-letter-spacing-100: 5%;
+  --f-letter-spacing-200: 7%;
+  --f-letter-spacing-300: 17%;
+
+  /* Layout */
+  --page-max-width: 1440px;
+  --page-inline-padding: 10.25rem;
+  --page-minimum-padding: 1.125rem;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --fs-210: 0.725rem;
+    --fs-410: 1.1875rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+  color: inherit;
+  transition: color ease 0.25s;
+}
+
+body {
+  font-family: var(--ff-main);
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-300);
+  color: var(--clr-neutral-400);
+  font-style: normal;
+  line-height: normal;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .display-none-tablet {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .display-none-mobile {
+    display: none;
+  }
+}
+
+.red-border {
+  border-color: var(--clr-primary-100) !important;
+}
+
+/* Utility Classes */
+
+.fs-100 {
+  font-size: var(--fs-100);
+}
+
+.fs-110 {
+  font-size: var(--fs-110);
+}
+
+.fs-200 {
+  font-size: var(--fs-200);
+}
+
+.fs-210 {
+  font-size: var(--fs-210);
+}
+
+.fs-300 {
+  font-size: var(--fs-300);
+}
+
+.fs-400 {
+  font-size: var(--fs-400);
+}
+
+.fs-410 {
+  font-size: var(--fs-410);
+}
+
+.fs-500 {
+  font-size: var(--fs-500);
+}
+
+.f-letter-spacing-100 {
+  letter-spacing: var(--f-letter-spacing-100);
+}
+
+.f-letter-spacing-200 {
+  letter-spacing: var(--f-letter-spacing-200);
+}
+
+.f-letter-spacing-300 {
+  letter-spacing: var(--f-letter-spacing-300);
+}
+
+.container {
+  margin-inline: auto;
+  width: min(
+    calc(var(--page-max-width) - var(--page-inline-padding) * 2),
+    calc(100dvw - var(--page-minimum-padding) * 2)
+  );
+}
+
+.display-none-desktop {
+  display: none;
+}
+
+/* Defaults */
+
+label {
+  letter-spacing: var(--f-letter-spacing-300);
+}
